@@ -13,9 +13,11 @@ $modules{$_} = $_ for qw(
   Alien::Build
   Alien::Build::Plugin
   ExtUtils::MakeMaker
+  HTML::LinkExtor
   Test2::V0
   Test::Alien::Build
   URI
+  URI::Escape
 );
 
 

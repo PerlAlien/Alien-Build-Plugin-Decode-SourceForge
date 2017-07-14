@@ -44,7 +44,7 @@ sub init
 {
   my($self, $meta) = @_;
   
-  $meta->add_requires( 'configure' => 'Alien::Build::Plugin::Decode::SourceForge' );
+  $meta->add_requires( 'configure' => 'Alien::Build::Plugin::Decode::SourceForge' => 0 );
   
   $meta->around_hook(
     decode => sub {
