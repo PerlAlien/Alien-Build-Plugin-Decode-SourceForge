@@ -11,7 +11,7 @@ use URI;
 
 =head1 SYNOPSIS
 
- use alinfile;
+ use alienfile;
  
  plugin 'Decode::SourceForge';
 
