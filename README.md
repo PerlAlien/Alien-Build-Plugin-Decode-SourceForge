@@ -4,7 +4,7 @@ Alien::Build plugin to handle SourceForge links
 
 # SYNOPSIS
 
-    use alinfile;
+    use alienfile;
     
     plugin 'Decode::SourceForge';
 
@@ -26,7 +26,11 @@ plugin.
 
 # AUTHOR
 
-Graham Ollis <plicease@cpan.org>
+Author: Graham Ollis <plicease@cpan.org>
+
+Contributors:
+
+Alexandr Ciornii (CHORNY)
 
 # COPYRIGHT AND LICENSE
 
