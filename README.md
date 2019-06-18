@@ -14,8 +14,7 @@ SourceForge is a website that offers software developers a centralized online lo
 manage their Open Source projects.  One of the challenges it presents is that projects
 hosted by SourceForge add the unnecessary suffix `/download` to links of tarballs, which
 confuses the way [Alien::Base](https://metacpan.org/pod/Alien::Base) computes the filename based on URLs.  This plugin solves
-this problem by rewriting the filenames returned by the [Alien::Build::Plugin::Decode::HTML](https://metacpan.org/pod/Alien::Build::Plugin::Decode::HTML)
-plugin.
+this problem by rewriting the filenames returned by the configured decode plugin.
 
 # SEE ALSO
 

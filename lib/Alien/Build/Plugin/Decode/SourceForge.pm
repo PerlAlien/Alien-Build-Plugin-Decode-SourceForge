@@ -21,8 +21,7 @@ SourceForge is a website that offers software developers a centralized online lo
 manage their Open Source projects.  One of the challenges it presents is that projects
 hosted by SourceForge add the unnecessary suffix C</download> to links of tarballs, which
 confuses the way L<Alien::Base> computes the filename based on URLs.  This plugin solves
-this problem by rewriting the filenames returned by the L<Alien::Build::Plugin::Decode::HTML>
-plugin.
+this problem by rewriting the filenames returned by the configured decode plugin.
 
 =head1 SEE ALSO
 
