@@ -1,12 +1,14 @@
-# Alien::Build::Plugin::Decode::SourceForge [![Build Status](https://secure.travis-ci.org/plicease/Alien-Build-Plugin-Decode-SourceForge.png)](http://travis-ci.org/plicease/Alien-Build-Plugin-Decode-SourceForge)
+# Alien::Build::Plugin::Decode::SourceForge ![linux](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/linux/badge.svg) ![macos](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/macos/badge.svg) ![windows](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/windows/badge.svg) ![cygwin](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/cygwin/badge.svg) ![msys2-mingw](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/msys2-mingw/badge.svg)
 
 Alien::Build plugin to handle SourceForge links
 
 # SYNOPSIS
 
-    use alienfile;
-    
-    plugin 'Decode::SourceForge';
+```perl
+use alienfile;
+
+plugin 'Decode::SourceForge';
+```
 
 # DESCRIPTION
 
