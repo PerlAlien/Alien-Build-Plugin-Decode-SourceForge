@@ -4,12 +4,12 @@ use Alien::Build::Plugin::Decode::SourceForge;
 
 my $build = alienfile_ok q{
   use alienfile;
-  
+
   share {
-  
+
     plugin 'Decode::Mojo';
     plugin 'Decode::SourceForge';
-  
+
   };
 };
 
