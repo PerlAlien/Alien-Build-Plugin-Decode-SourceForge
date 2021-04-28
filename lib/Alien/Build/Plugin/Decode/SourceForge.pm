@@ -42,22 +42,22 @@ this problem by rewriting the filenames returned by the configured decode plugin
 sub init
 {
   my($self, $meta) = @_;
-  
+
   $meta->add_requires( 'configure' => 'Alien::Build::Plugin::Decode::SourceForge' => 0 );
-  
+
   $meta->around_hook(
     decode => sub {
       my($orig, $build, $html) = @_;
-      
+
       my $list = $orig->($build, $html);
-      
+
       if($list->{type} eq 'list')
       {
-      
+
         @{ $list->{list} } = map { _rewrite($_) } @{ $list->{list} }
-      
+
       }
-      
+
       $list;
     },
   );
@@ -66,11 +66,11 @@ sub init
 sub _rewrite
 {
   my($link) = @_;
-  
+
   my $uri = URI->new($link->{url});
-  
+
   return $link unless $uri->host eq 'sourceforge.net';
-  
+
   if($uri->path =~ m{/([^/]+)/download$})
   {
     return {
