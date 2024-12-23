@@ -1,4 +1,4 @@
-# Alien::Build::Plugin::Decode::SourceForge ![linux](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/linux/badge.svg) ![macos](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/macos/badge.svg) ![windows](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/windows/badge.svg) ![msys2-mingw](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/msys2-mingw/badge.svg)
+# Alien::Build::Plugin::Decode::SourceForge ![linux](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/linux/badge.svg) ![macos](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/macos/badge.svg) ![windows](https://github.com/uperl/Alien-Build-Plugin-Decode-SourceForge/workflows/windows/badge.svg)
 
 Alien::Build plugin to handle SourceForge links
 
